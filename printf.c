@@ -34,7 +34,7 @@ int printTypeChecker(char car, va_list arg)
 }
 
 /**
- * printf - Our custom printf function based on C's
+ * _printf - Our custom printf function based on C's
  *
  * @format : Character stream to be used
  *
