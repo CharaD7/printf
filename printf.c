@@ -19,6 +19,14 @@ int printTypeChecker(char car, va_list arg)
 	TypeStruct argArr[] = {
 		{"c", ret_char},
 		{"s", ret_str},
+		{"d", ret_int},
+		{"i", ret_int},
+		{"u", ret_unsigned},
+		{"b", ret_unsignedToBinary},
+		{"o", ret_oct},
+		{"x", ret_hex},
+		{"X", ret_HEX},
+		{"S", ret_STR}
 		{NULL, NULL}
 	};
 
