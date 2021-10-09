@@ -26,7 +26,7 @@ int printTypeChecker(char car, va_list arg)
 		{"o", ret_oct},
 		{"x", ret_hex},
 		{"X", ret_HEX},
-		{"S", ret_STR}
+		{"S", ret_STR},
 		{NULL, NULL}
 	};
 

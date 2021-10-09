@@ -105,7 +105,7 @@ int ret_STR(va_list arg)
 			if (i < 16)
 				_putchar('0');
 
-			print_unsignedIntToHex(str[i], 'A');
+			ret_unsignedIntToHex(str[i], 'A');
 		}
 		else
 			_putchar(str[i]);
@@ -114,6 +114,15 @@ int ret_STR(va_list arg)
 	return (i);
 }
 
+/**
+ * ret_unsigned - prints an unsigned int.
+ *
+ * @arg: argument
+ *
+ * Return: 0
+ */
+
+int ret_unsigned(va_list arg)
 {
 	int divisor = 1, i, resp;
 	unsigned int n = va_arg(arg, unsigned int);
